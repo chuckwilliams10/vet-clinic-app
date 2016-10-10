@@ -1,0 +1,10 @@
+<table class="template-table">
+	<tr>
+		<th>Visited At</th>
+		<th>Id</th>
+	</tr>
+	<tr ng-repeat='visit in visits'>
+		<td ng-click='viewVisit($index)'>{{visit.visitedAt}}</td>
+		<td ng-click='viewVisit($index)'>{{visit._id}}</td>
+	</tr>
+</table>

@@ -1,0 +1,10 @@
+<table class="template-table">
+	<tr>
+		<th>Name</th>
+		<th>Id</th>
+	</tr>
+	<tr ng-repeat='animal in animals'>
+		<td ng-click='viewAnimal($index)'>{{animal.name}}</td>
+		<td ng-click='viewAnimal($index)'>{{animal._id}}</td>
+	</tr>
+</table>

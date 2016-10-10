@@ -1,0 +1,10 @@
+<table class="template-table">
+	<tr>
+		<th>Name</th>
+		<th>Id</th>
+	</tr>
+	<tr ng-repeat='doctor in doctors'>
+		<td ng-click='viewDoctor($index)'>{{doctor.name}}</td>
+		<td ng-click='viewDoctor($index)'>{{doctor._id}}</td>
+	</tr>
+</table>

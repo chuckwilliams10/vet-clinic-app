@@ -1,0 +1,10 @@
+<table class="template-table">
+	<tr>
+		<th>Name</th>
+		<th>Id</th>
+	</tr>
+	<tr ng-repeat='owner in owners'>
+		<td ng-click='viewOwner($index)'>{{owner.name}}</td>
+		<td ng-click='viewOwner($index)'>{{owner._id}}</td>
+	</tr>
+</table>

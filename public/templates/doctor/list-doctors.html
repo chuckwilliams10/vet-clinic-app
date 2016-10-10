@@ -1,0 +1,8 @@
+<table>
+	<tr>
+		<th>Name</th>
+	</tr>
+	<tr ng-repeat='doctor in doctors'>
+		<td ng-click='viewDoctor($index)'>{{doctor.name}}</td>
+	</tr>
+</table>
